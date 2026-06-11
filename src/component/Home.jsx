@@ -43,7 +43,7 @@ function Home() {
       <div className="bg-primary text-white text-center py-5">
         <div className="container">
           <h1 className="display-4 fw-bold">
-            Welcome to Style Highway   hiiiiiiiiiiiiii
+            Welcome to Style Highway  
           </h1>
           <p className="lead">
             Discover the latest fashion trends and stylish T-Shirts.

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Home() {
   return (
@@ -6,9 +6,15 @@ function Home() {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <a
+            className="navbar-brand"
+            href="https://www.youtube.com/@mohdadiladil3759"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Style Highway
           </a>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -23,12 +29,15 @@ function Home() {
               <li className="nav-item">
                 <a className="nav-link" href="/">Home</a>
               </li>
+
               <li className="nav-item">
                 <a className="nav-link" href="/">Products</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/Register">Adil bhI</a>
+                <a className="nav-link" href="/Register">
+                  Adil Bhai
+                </a>
               </li>
 
               <li className="nav-item">
@@ -43,11 +52,13 @@ function Home() {
       <div className="bg-primary text-white text-center py-5">
         <div className="container">
           <h1 className="display-4 fw-bold">
-            Welcome to Style Highway  
+            Welcome to Style Highway
           </h1>
+
           <p className="lead">
             Discover the latest fashion trends and stylish T-Shirts.
           </p>
+
           <button className="btn btn-light btn-lg">
             Shop Now
           </button>
@@ -56,18 +67,24 @@ function Home() {
 
       {/* Cards Section */}
       <div className="container py-5">
-        <h2 className="text-center mb-4">Featured Products</h2>
+        <h2 className="text-center mb-4">
+          Featured Products
+        </h2>
 
         <div className="row g-4">
+
+          {/* Card 1 */}
           <div className="col-md-4">
             <div className="card shadow border-0 h-100">
               <img
                 src="https://via.placeholder.com/300x200"
                 className="card-img-top"
-                alt="product"
+                alt="Premium T-Shirt"
               />
               <div className="card-body text-center">
-                <h5 className="card-title">Premium T-Shirt</h5>
+                <h5 className="card-title">
+                  Premium T-Shirt
+                </h5>
                 <p className="card-text">
                   Comfortable and stylish design.
                 </p>
@@ -78,15 +95,18 @@ function Home() {
             </div>
           </div>
 
+          {/* Card 2 */}
           <div className="col-md-4">
             <div className="card shadow border-0 h-100">
               <img
                 src="https://via.placeholder.com/300x200"
                 className="card-img-top"
-                alt="product"
+                alt="Casual Wear"
               />
               <div className="card-body text-center">
-                <h5 className="card-title">Casual Wear</h5>
+                <h5 className="card-title">
+                  Casual Wear
+                </h5>
                 <p className="card-text">
                   Perfect for daily use.
                 </p>
@@ -97,15 +117,18 @@ function Home() {
             </div>
           </div>
 
+          {/* Card 3 */}
           <div className="col-md-4">
             <div className="card shadow border-0 h-100">
               <img
                 src="https://via.placeholder.com/300x200"
                 className="card-img-top"
-                alt="product"
+                alt="Fashion Collection"
               />
               <div className="card-body text-center">
-                <h5 className="card-title">Fashion Collection</h5>
+                <h5 className="card-title">
+                  Fashion Collection
+                </h5>
                 <p className="card-text">
                   Trendy and modern outfits.
                 </p>
@@ -116,17 +139,18 @@ function Home() {
             </div>
           </div>
 
-
-
+          {/* Card 4 */}
           <div className="col-md-4">
             <div className="card shadow border-0 h-100">
               <img
                 src="https://via.placeholder.com/300x200"
                 className="card-img-top"
-                alt="product"
+                alt="Categories Collection"
               />
               <div className="card-body text-center">
-                <h5 className="card-title">Cotegories Collection</h5>
+                <h5 className="card-title">
+                  Categories Collection
+                </h5>
                 <p className="card-text">
                   Trendy and modern outfits.
                 </p>
@@ -147,7 +171,7 @@ function Home() {
         </p>
       </footer>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

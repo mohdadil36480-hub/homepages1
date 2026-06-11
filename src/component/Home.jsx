@@ -43,7 +43,7 @@ function Home() {
       <div className="bg-primary text-white text-center py-5">
         <div className="container">
           <h1 className="display-4 fw-bold">
-            Welcome to Style Highway
+            Welcome to Style Highway   hiiiiiiiiiiiiii
           </h1>
           <p className="lead">
             Discover the latest fashion trends and stylish T-Shirts.
@@ -115,6 +115,28 @@ function Home() {
               </div>
             </div>
           </div>
+
+
+
+          <div className="col-md-4">
+            <div className="card shadow border-0 h-100">
+              <img
+                src="https://via.placeholder.com/300x200"
+                className="card-img-top"
+                alt="product"
+              />
+              <div className="card-body text-center">
+                <h5 className="card-title">Cotegories Collection</h5>
+                <p className="card-text">
+                  Trendy and modern outfits.
+                </p>
+                <button className="btn btn-info">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
